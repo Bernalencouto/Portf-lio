@@ -60,10 +60,18 @@ main {
 .nav-buttons a {
   padding: 1rem 2rem;
   background-color: var(--accent-color);
-  color: #fff;
+  color: #000; 
   text-decoration: none;
   border-radius: 8px;
   font-weight: 600;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+  transition: background-color 0.3s, color 0.3s, transform 0.2s;
+}
+
+.nav-buttons a:hover {
+  background-color: darkorange;
+  color: #fff;
+  transform: scale(1.05);
 }
 
 .content-box {
