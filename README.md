@@ -30,4 +30,4 @@ Seja bem-vindo ao meu portfólio. Ele foi desenvolvido para a cadeira de Introdu
 
 ## Observações finais
 
-Este site representa meu início na área de tecnologia. Com o tempo, pretendo incluir mais projetos, experiências e aprendizados que venham com minha jornada.
+Este site representa meu início na área de tecnologia. Com o tempo, pretendo incluir mais projetos, experiências e aprendizados que venham com minha jornada, além de aprimorar o site e deixá-lo mais agradável. 
