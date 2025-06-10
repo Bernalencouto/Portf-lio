@@ -25,3 +25,9 @@ Seja bem-vindo ao meu portfólio. Ele foi desenvolvido para a cadeira de Introdu
 
 - ✉️ Email: coutinhoabernardo@gmail.com  
 - 🔗 Linkedin: [www.linkedin.com/in/bernardo-alencar-coutinho](https://www.linkedin.com/in/bernardo-alencar-coutinho)
+
+---
+
+## Observações finais
+
+Este site representa meu início na área de tecnologia. Com o tempo, pretendo incluir mais projetos, experiências e aprendizados que venham com minha jornada.
