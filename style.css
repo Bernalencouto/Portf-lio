@@ -1,0 +1,116 @@
+:root {
+  --bg-color: #ffffff;
+  --text-color: #000000;
+  --accent-color: orange;
+  --footer-color: #f1f1f1;
+  --content-bg: #f9f9f9;
+  --content-text: #000000;
+}
+
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
+
+header {
+  padding: 2rem;
+  text-align: center;
+  background-color: var(--accent-color);
+  color: white;
+}
+
+#toggle-theme {
+  position: fixed;
+  top: 1rem;
+  right: 1rem;
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  z-index: 1000;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+}
+
+.icon {
+  width: 40px;
+  margin: 0.5rem;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.nav-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.nav-buttons a {
+  padding: 1rem 2rem;
+  background-color: var(--accent-color);
+  color: #fff;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: 600;
+}
+
+.content-box {
+  background-color: var(--content-bg);
+  color: var(--content-text);
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+  max-width: 800px;
+  width: 100%;
+  margin-top: 1rem;
+  text-align: justify;
+}
+
+.project-img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+
+footer {
+  text-align: center;
+  padding: 0.5rem;
+  background-color: var(--footer-color);
+  color: #555;
+  margin-top: 3rem;
+  font-size: 0.85rem;
+}
+
+body.projetos {
+  --accent-color: #007BFF;
+}
+
+body.interesses {
+  --accent-color: #6a0dad;
+}
+
+.dark-mode {
+  --bg-color: #121212;
+  --text-color: #f0f0f0;
+  --footer-color: #1e1e1e;
+  --content-bg: #1f1f1f;
+  --content-text: #f0f0f0;
+}
+
+@media (max-width: 768px) {
+  .nav-buttons {
+    flex-direction: column;
+  }
+}
